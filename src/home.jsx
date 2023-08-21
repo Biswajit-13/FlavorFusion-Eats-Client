@@ -30,7 +30,7 @@ const Home = () => {
             // Token might be invalid or expired, handle accordingly
             setError("Failed to fetch user data");
             // Optionally: Implement token refresh or logout
-            handleLogout();
+            // handleLogout();
           }
         })
         .catch(error => {
