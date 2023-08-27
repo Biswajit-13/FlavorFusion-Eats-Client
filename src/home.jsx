@@ -39,7 +39,7 @@ const Home = () => {
         });
     } else {
       // Redirect to the login page if no token is present
-      navigate('/login');
+      // navigate('/login');
     }
   }, [navigate]);
 
